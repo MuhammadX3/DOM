@@ -145,8 +145,8 @@ body {
 */
 
 body {
-  height: 100vh;
   background: url(/img/cut.jpg) no-repeat center center/ cover;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,7 +165,7 @@ body {
   font-size: 70px;
   text-align: center;
   margin: 0px auto;
-  padding: 35px;
+  padding: 30px;
 }
 
 .buttons {
@@ -181,7 +181,7 @@ button i {
   font-size: 2rem;
   padding: 10px;
   color: #fff;
-  width: 60px;
+  width: 50px;
 }
 
 #play {

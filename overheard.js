@@ -1,3 +1,27 @@
+/* Project 2 Js */
+
+// Variables
+
+let openBtn = document.getElementById("open-btn");
+let modContainer = document.getElementById("modal-container");
+let closeBtn = document.getElementById("close-btn");
+
+// Event Listeners
+
+openBtn.addEventListener("click", function () {
+  modContainer.style.display = "block";
+});
+
+closeBtn.addEventListener("click", function () {
+  modContainer.style.display = "none";
+});
+
+window.addEventListener("click", function (e) {
+  if (e.target === modContainer) {
+    modContainer.style.display = "none";
+  }
+});
+
 /* Project 4 Js */
 
 const startStopBtn = document.getElementById("startStopBtn");
